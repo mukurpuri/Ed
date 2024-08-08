@@ -3,7 +3,7 @@
 
 ### 1. Approach to Accessibility:
 
-I have ensured to determined all the imporant parameters mentioned in this link https://enabled.in/wcag-2-1-checklist/
+I have ensured to determined all the imporant parameters mentioned in [here](https://enabled.in/wcag-2-1-checklist/)
 for WCAG 2.1 Level AA, which are than considered as below.
 
 1. #### Navigation and Focus:
