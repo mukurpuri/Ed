@@ -1,7 +1,7 @@
 # Ed
 
 
-### Approach to Accessibility:
+### 1. Approach to Accessibility:
 1. #### Navigation and Focus:
 Keyboard Navigation: The page is navigable using only the keyboard. All interactive elements such as links, form fields, and buttons are reachable and operable using the Tab key and other keyboard shortcuts.
 Focus States: We have ensured that focus states are clearly visible (e.g., underline links, highlight form fields).
@@ -24,7 +24,7 @@ Used HTML5 validation with required attributes on input fields.
 The aria-live region will dynamically announce form errors if validation fails.
 
 
-### Tools Used for Testing:
+### 2. Tools Used for Testing:
 
 1. #### Browser Developer Tools:
 For testing color contrast and keyboard navigation we used axeDevTools v4.84.3. 
