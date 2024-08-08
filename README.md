@@ -4,7 +4,7 @@
 ### 1. Approach to Accessibility:
 1. #### Navigation and Focus:
 Keyboard Navigation: The page is navigable using only the keyboard. All interactive elements such as links, form fields, and buttons are reachable and operable using the Tab key and other keyboard shortcuts.
-Focus States: We have ensured that focus states are clearly visible (e.g., underline links, highlight form fields).
+Focus States: I have ensured that focus states are clearly visible (e.g., underline links, highlight form fields).
 
 2. #### ARIA Roles and Properties:
 ARIA Roles: Used aria-labelledby on the form to describe its purpose.
@@ -27,10 +27,22 @@ The aria-live region will dynamically announce form errors if validation fails.
 ### 2. Tools Used for Testing:
 
 1. #### Browser Developer Tools:
-For testing color contrast and keyboard navigation we used axeDevTools v4.84.3. 
+For testing color contrast and keyboard navigation I used axeDevTools v4.84.3. 
 
 2. #### Screen Reader:
 Tested with Voice Over on Mac and Narrator on Windows to ensure that the content is accessible.
+
+3. #### WAVE Tools:
+Used for automated accessibility checks and identifying issues.
+
+
+### 3. Challenges:
+
+1. #### Color contrast of native calender date labels:
+The date labels inside the native calender control for chrome is not changable, which is a bit out of contrast.
+
+2. #### Color Contrast of header and footer with main content:
+I adjusted the color palette to meet contrast ratio requirements while maintaining aesthetic appeal for the overall project.
 
 3. #### WAVE Tools:
 Used for automated accessibility checks and identifying issues.
