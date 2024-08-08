@@ -2,6 +2,10 @@
 
 
 ### 1. Approach to Accessibility:
+
+I have ensured to determined all the imporant parameters mentioned in this link https://enabled.in/wcag-2-1-checklist/
+for WCAG 2.1 Level AA, which are than considered as below.
+
 1. #### Navigation and Focus:
 Keyboard Navigation: The page is navigable using only the keyboard. All interactive elements such as links, form fields, and buttons are reachable and operable using the Tab key and other keyboard shortcuts.
 Focus States: I have ensured that focus states are clearly visible (e.g., underline links, highlight form fields).
