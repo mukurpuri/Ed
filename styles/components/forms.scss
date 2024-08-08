@@ -27,10 +27,15 @@ form input[type=password]:focus {
     outline: 2px solid $blue1;
     outline-offset: 2px;
 }
-form input[type=radio]:focus, form input[type=checkbox]:focus {
-    outline: 2px solid $blue1;
-    height: 14px;
 
+[type=checkbox], [type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 1rem;
+}
+[type=checkbox]:focus, [type=radio]:focus {
+    outline-color: $blue1;
+    outline-offset: 2px;
 }
 
 
@@ -111,4 +116,8 @@ input[type="submit"]:active {
 .checkbox {
     display: flex;
     gap: 0.5rem;
+}
+.radio-button-container {
+    display: flex;
+    gap: 1rem;
 }
