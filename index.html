@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ed - Master Software Enginee</title>
+    <link rel="stylesheet" href="output/index.css">
+</head>
+<body>
+    <!-- Skip Navigation Link -->
+    <a href="#main-content" class="skip-nav">Skip to main content</a>
+
+    <!-- Header with Navigation Menu -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img alt="Ed logo" aria-current="page" role="link" src="./assets/logo.png" tabindex="0" aria-disabled="false">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Online Classes</a></li>
+                    <li><a href="#section2">Earn a Degree</a></li>
+                    <li><a id="login" href="/login">Login</a></li>
+                    <li><button class="btn btn-sm btn-brand" href="/signup">Join for Free</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container" id="main-content">
+        <div class="sections">
+        <section id="section1">
+            <h1>What is Ed?</h1>
+            <p>Ed is a leading online platform designed to help aspiring software engineers succeed in the tech industry. It offers comprehensive resources, including expert-led courses, real-world projects, and interactive tutorials, to master programming languages and technologies. Ed provides a structured learning experience to prepare you for top software engineering roles, opening doors to premium job opportunities worldwide.</p>
+        </section>
+        <section id="section2">
+            <h2>Learn from Experts at Ed</h2>
+            <p>We are fortunate to learn from outstanding computer programming instructors who excel in both expertise and teaching. Their deep knowledge, innovative methods, and engaging approach make complex concepts accessible and inspire students. Their commitment to a supportive learning environment helps students master technical skills and fosters a passion for programming that drives future career success.</p>
+        </section>
+        </div>
+        <section id="section3">
+            <form id="contact-form" aria-live="polite">
+                <fieldset class="fieldset">
+                    <legend>Register to get a free demo class online</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset class="inner-fieldset">
+                        <legend>Select Gender:</legend>
+                        <label class="radio-button" for="email-contact">
+                            <input type="radio" id="email-contact" name="contact" value="email" required>
+                            Male
+                        </label>
+                        <label class="radio-button" for="phone-contact">
+                            <input type="radio" id="phone-contact" name="contact" value="phone">
+                            Female
+                        </label>
+                    </fieldset>
+                    <div>
+                        <label class="checkbox" for="newsletter">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            Subscribe to newsletter
+                        </label>
+                    </div>
+                    <div class="mt-1">
+                        <button class="btn btn-brand btn-sm full" type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer with Contact Information -->
+    <footer>
+        <p>Contact us at <a href="mailto:info@example.com">info@ed.com</a></p>
+    </footer>
+</body>
+</html>

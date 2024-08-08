@@ -1,0 +1,21 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+#main-content {
+    display: flex;
+    flex-direction: row;
+    min-height: 70vh;
+    gap: 4rem;
+}
+.sections {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#section3 {
+    width: 60%;
+}

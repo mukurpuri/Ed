@@ -1,0 +1,49 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+.full {
+  width: 100%;
+}
+
+.btn {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 4px;
+}
+
+.btn.btn-sm {
+  padding: 0.5rem 0.7rem;
+}
+
+.btn.btn-brand {
+  color: #fff !important;
+  background-color: #0056d2;
+}
+
+.btn.btn-brand:hover {
+  color: #fff;
+  background-color: #0046aa;
+}
+
+.btn:focus {
+  outline: 2px solid #0046aa;
+  outline-offset: 2px;
+}
