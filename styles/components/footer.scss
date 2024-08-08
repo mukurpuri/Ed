@@ -1,6 +1,50 @@
+@import "../utilities/root.scss";
+
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
+
+    background-color: $grey1;
+    border-top: 1px solid $grey2;
+    .footer-content {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      nav li {
+        display: inline;
+        margin-right: 15px;
+      }
+      
+      nav a {
+        color: #171717;
+        text-decoration: none;
+        font-size: 0.95rem;
+        font-weight: 500;
+      }
+      
+      nav a:focus, nav a:hover {
+        text-decoration: underline;
+      }
+      
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        background-color: transparent;
+      }
 }
