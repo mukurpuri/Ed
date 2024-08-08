@@ -1,7 +1,10 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     footer {
         position: relative;
         margin-top: 2rem;
+    }
+    #section3 {
+        width: 100%;
     }
     #main-content {
         width: auto;
