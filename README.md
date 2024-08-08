@@ -1,7 +1,7 @@
 # Ed
 
 
-### Accessibility Considerations
+### Approach to Accessibility:
 1. #### Navigation and Focus:
 Keyboard Navigation: The page is navigable using only the keyboard. All interactive elements such as links, form fields, and buttons are reachable and operable using the Tab key and other keyboard shortcuts.
 Focus States: We have ensured that focus states are clearly visible (e.g., underline links, highlight form fields).
