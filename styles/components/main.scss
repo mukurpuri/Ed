@@ -8,7 +8,6 @@
 #main-content {
     display: flex;
     flex-direction: row;
-    min-height: 70vh;
     gap: 4rem;
 }
 .sections {
@@ -16,9 +15,7 @@
     flex-direction: column;
     width: 100%;
 }
-#section3 {
-    width: 60%;
-}
+
 .alumni-container{ 
     display: flex;
     flex-wrap: wrap;

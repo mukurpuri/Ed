@@ -1,7 +1,7 @@
 @import "../utilities/root.scss";
-.skip-nav {
-    display: none;
-}
+// .skip-nav {
+//     display: none;
+// }
 .header {
     display: flex;
     width: 100%;
@@ -11,6 +11,15 @@
     nav {
         ul {
             margin: 0;
+        }
+
+        .nav-toggle {
+            display: none;
+            font-size: 24px;
+            background: none;
+            border: none;
+            color: #111;
+            cursor: pointer;
         }
     }
     .logo {
