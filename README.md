@@ -50,3 +50,9 @@ I adjusted the color palette to meet contrast ratio requirements while maintaini
 
 3. #### WAVE Tools:
 Used for automated accessibility checks and identifying issues.
+
+
+#### Report Results
+
+1. Axe 
+![Axe result](https://github.com/mukurpuri/Ed/blob/main/blob/report_axe.png)
