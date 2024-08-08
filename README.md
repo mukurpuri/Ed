@@ -23,3 +23,14 @@ Added a skip link section at the top of the page, which gets visible only when f
 Used HTML5 validation with required attributes on input fields.
 The aria-live region will dynamically announce form errors if validation fails.
 
+
+### Tools Used for Testing:
+
+1. #### Browser Developer Tools:
+For testing color contrast and keyboard navigation we used axeDevTools v4.84.3. 
+
+2. #### Screen Reader:
+Tested with Voice Over on Mac and Narrator on Windows to ensure that the content is accessible.
+
+3. #### WAVE Tools:
+Used for automated accessibility checks and identifying issues.
